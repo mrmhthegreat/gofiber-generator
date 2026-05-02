@@ -11,7 +11,7 @@ This is a Go-based wrapper that embeds the Python generator and its dependencies
 You can install the generator directly without cloning the repository:
 
 ```bash
-go install github.com/mrmhthegreat/gofiber-generator@v0.2.6
+go install github.com/mrmhthegreat/gofiber-generator@v0.2.8
 ```
 
 ## 🚀 Build Instructions (Manual)
