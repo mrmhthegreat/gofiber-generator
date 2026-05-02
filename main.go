@@ -36,7 +36,7 @@ func main() {
 	// Verify environment exists
 	if _, err := os.Stat(envDir); os.IsNotExist(err) {
 		fmt.Println("❌ Error: Environment not initialized.")
-		fmt.Println("Please run: ./gofiber-gen init")
+		fmt.Println("Please run: gofiber-generator init")
 		os.Exit(1)
 	}
 
@@ -105,5 +105,5 @@ func initializeEnv(fsys embed.FS, targetDir string) {
 	// NewEmbeddedFilesWithTmpDir extracts files.
 	// We don't call Cleanup because we want it to stay in the home folder.
 	fmt.Printf("✅ Environment successfully prepared in %s\n", targetDir)
-	fmt.Println("You can now run './gofiber-gen'")
+	fmt.Println("You can now run 'gofiber-generator'")
 }
