@@ -1,0 +1,9 @@
+# Go binary
+gofiber-gen
+
+# Generated Python data (Wheels) - Downloaded via go generate
+generate/data/
+
+# OS metadata
+.DS_Store
+Thumbs.db

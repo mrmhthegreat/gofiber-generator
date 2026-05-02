@@ -1,0 +1,10 @@
+gofiber-generator==0.2.3
+customtkinter>=5.2.0
+Jinja2>=3.0.0
+PyYAML>=6.0
+darkdetect
+packaging
+MarkupSafe
+fastapi
+uvicorn
+pydantic
