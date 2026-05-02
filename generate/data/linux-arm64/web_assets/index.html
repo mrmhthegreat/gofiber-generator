@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoFiber Generator — Syntax Genesis</title>
+    <link rel="stylesheet" href="/web_assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=JetBrains+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="glass-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">S</div>
+                <span>SYNTAX GENESIS</span>
+            </div>
+            <nav>
+                <div class="nav-item active">
+                    <span class="icon">📊</span> Dashboard
+                </div>
+                <div class="nav-item">
+                    <span class="icon">📁</span> Projects
+                </div>
+                <div class="nav-item">
+                    <span class="icon">⚙️</span> Settings
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <header class="top-nav">
+                <h1>CODE GENERATION STUDIO</h1>
+                <div class="status-badge">
+                    <span class="pulse"></span> ACTIVE
+                </div>
+            </header>
+
+            <div class="dashboard-grid">
+                <!-- Left Panel: Form -->
+                <section class="glass-panel form-panel">
+                    <h3>Generation Configuration</h3>
+                    <form id="genForm">
+                        <div class="input-group">
+                            <label>Config Path</label>
+                            <input type="text" id="configPath" value="master_config.yaml"
+                                placeholder="master_config.yaml">
+                        </div>
+                        <div class="input-group">
+                            <label>Output Directory</label>
+                            <input type="text" id="outputPath" value="./generated" placeholder="./generated">
+                        </div>
+
+                        <div class="toggles-scroll">
+                            <label class="toggle-header">Module Selection</label>
+                            <div class="toggles-grid" id="togglesGrid">
+                                <!-- Steps will be injected here via JS or hardcoded -->
+                                <label class="toggle"><input type="checkbox" data-step="validate" checked><span
+                                        class="slider"></span>Validate</label>
+                                <label class="toggle"><input type="checkbox" data-step="app" checked><span
+                                        class="slider"></span>App Core</label>
+                                <label class="toggle"><input type="checkbox" data-step="auth" checked><span
+                                        class="slider"></span>Auth</label>
+                                <label class="toggle"><input type="checkbox" data-step="middleware" checked><span
+                                        class="slider"></span>Middleware</label>
+                                <label class="toggle"><input type="checkbox" data-step="rbac" checked><span
+                                        class="slider"></span>RBAC</label>
+                                <label class="toggle"><input type="checkbox" data-step="storage" checked><span
+                                        class="slider"></span>Storage</label>
+                                <label class="toggle"><input type="checkbox" data-step="imap" checked><span
+                                        class="slider"></span>IMap</label>
+                                <label class="toggle"><input type="checkbox" data-step="notifications" checked><span
+                                        class="slider"></span>Notifications</label>
+                                <label class="toggle"><input type="checkbox" data-step="chat" checked><span
+                                        class="slider"></span>Chat</label>
+                                <label class="toggle"><input type="checkbox" data-step="models" checked><span
+                                        class="slider"></span>Models</label>
+                                <label class="toggle"><input type="checkbox" data-step="models_handler" checked><span
+                                        class="slider"></span>Models Handler</label>
+                                <label class="toggle"><input type="checkbox" data-step="models_dtos" checked><span
+                                        class="slider"></span>Models DTOs</label>
+                                <label class="toggle"><input type="checkbox" data-step="models_repo" checked><span
+                                        class="slider"></span>Models Repo</label>
+                                <label class="toggle"><input type="checkbox" data-step="models_response" checked><span
+                                        class="slider"></span>Models Response</label>
+                                <label class="toggle"><input type="checkbox" data-step="models_controller" checked><span
+                                        class="slider"></span>Models Ctrl</label>
+                                <label class="toggle"><input type="checkbox" data-step="models_graphql" checked><span
+                                        class="slider"></span>Models GQL</label>
+                                <label class="toggle"><input type="checkbox" data-step="graphql" checked><span
+                                        class="slider"></span>GraphQL</label>
+                                <label class="toggle"><input type="checkbox" data-step="grpc" checked><span
+                                        class="slider"></span>gRPC</label>
+                                <label class="toggle"><input type="checkbox" data-step="routes" checked><span
+                                        class="slider"></span>Routes</label>
+                                <label class="toggle"><input type="checkbox" data-step="api_client" checked><span
+                                        class="slider"></span>API Client</label>
+                                <label class="toggle"><input type="checkbox" data-step="format" checked><span
+                                        class="slider"></span>Format</label>
+                            </div>
+                        </div>
+
+                        <div class="actions">
+                            <button type="submit" id="generateBtn" class="primary-btn">LAUNCH GENERATOR</button>
+                        </div>
+                    </form>
+                </section>
+
+                <!-- Right Panel: Logs -->
+                <section class="glass-panel log-panel">
+                    <div class="panel-header">
+                        <h3>LIVE ACTIVITY LOG</h3>
+                        <button id="clearLogs">Clear</button>
+                    </div>
+                    <div id="logContainer" class="log-stream">
+                        <div class="log-entry system">[00:00:01] System ready. Waiting for input...</div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="/web_assets/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+[console_scripts]
+gofiber-gen = generator:main
+gofiber-gui = launcher:main
+gofiber-serve = server:main

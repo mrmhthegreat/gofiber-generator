@@ -1,0 +1,177 @@
+Metadata-Version: 2.4
+Name: gofiber-generator
+Version: 0.2.3
+Summary: A complete configuration-driven generator for Go Fiber applications
+Home-page: https://github.com/mrmhthegreat/go-fiber-generator
+Author: Mrmhthegreat
+Author-email: mrmhthegreat@gmail.com
+Project-URL: Bug Tracker, https://github.com/mrmhthegreat/go-fiber-generator/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Jinja2>=3.0.0
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: customtkinter>=5.2.0
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Go Fiber Generator
+
+A comprehensive, configuration-driven code generator for Go Fiber backends. This toolset leverages Python and Jinja2 templates to produce a fully-featured, production-ready Go backend scaffold based on a declarative YAML configuration. 
+
+It handles everything from routing, controllers, and database models to authentication, RBAC, WebSockets, and Flutter client APIs.
+
+## 🚀 Key Features
+
+*   **App Scaffolding:** Generates the core foundation (config, database connectivity, main application entry point, routing skeleton, and infrastructure files like Dockerfile and Makefiles).
+*   **Database & Models:** Auto-generates Models, Repositories, DTOs, and Controllers from your schema configuration.
+*   **Authentication & Security:** Supports generating endpoints and logic for JWT authentication, Email/Password login, Social Login (OAuth), and Web auth.
+*   **RBAC (Role-Based Access Control):** Completely scaffolded authorization logic.
+*   **Real-time & Communication:** Built-in generators for WebSockets (chat), IMAP (email integration), and Notifications.
+*   **Client Generation:** Need to interact with your API? Generate a complete client API SDK.
+*   **AI-Assisted Configuration:** Use the included `AI_YML_GENERATOR_PROMPT.md` to have an LLM automatically write complex `master_config.yaml` files for your domain.
+
+---
+
+## 📋 Prerequisites
+
+*   **Python 3.8+**
+*   **Go 1.20+** (For compiling and running the generated application)
+*   *Optional: Docker (if you want to build and deploy via containers)*
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Install from Source (Recommended):**
+   This command installs the core dependencies (Jinja2, PyYAML) and registers the global `gofiber-gen` and `gofiber-gui` commands on your computer.
+   ```bash
+   pip install -e .
+   ```
+
+---
+
+## 🏁 Quickstart
+
+Once installed, the `gofiber-gen` command is available globally.
+
+1. **Review/Edit your configuration:**
+   Open `master_config.yaml` and define your project's models, routes, and settings.
+
+2. **Run the generator:**
+   ```bash
+   gofiber-gen --config master_config.yaml --output ./generated
+   ```
+
+3. **Format the generated Go code:**
+   ```bash
+   # Formatter is also available via the package
+   python -m generators.format_generated_code ./generated
+   ```
+
+4. **Run your new Go backend:**
+   ```bash
+   cd generated
+   go mod tidy
+   go run ./cmd/server/main.go
+   # Or using the generated makefile: make run
+   ```
+
+---
+
+## 🧰 Individual Generators
+
+You don't have to generate the entire project at once. The system is modular, allowing you to update specific components individually. All generators typically accept `--config`, `--templates` (pointing to `./tool/templates`), and `--output`.
+
+*   **App Scaffold (`app_generate.py`)**  
+    Generates configuration loaders, database setup, caching architecture, and fundamental structure.
+    
+*   **Domain Models (`model_generator.py`)**  
+    Maps YAML schema to Go structs for GORM models in `internal/domain`.
+    
+*   **DTOs & Responses (`dto_generator.py`)**  
+    Generates data transfer objects and standardized API response structures.
+
+*   **Repositories (`repository_generator.py`)**  
+    Generates GORM-based repository logic for database interaction.
+
+*   **Controllers (`controller_generator.py`)**  
+    Generates REST API handlers and endpoint logic.
+
+*   **Web Handlers (`web_handler_generator.py`)**  
+    Generates HTML/Web-based handlers and integrates with templates.
+    
+*   **Authentication (`auth_generate.py`)**  
+    Generates authentication routes, middleware, and credential processing logic.
+    
+*   **Role-Based Access Control (`rbac_generate.py`)**  
+    Generates roles, permission mappings, and access enforcement code logic.
+    
+*   **WebSockets & Chat (`chat_websocket_genrator.py`)**  
+    Scaffolds WebSocket handlers and connections for real-time messaging.
+    
+*   **Routes & Documentation (`routes.py`)**  
+    Consolidates API endpoints from your configs and generates a structured view or routing file.
+
+*   **Client API Generator (`api_client_generator.py`)**  
+    Generates frontend-ready SDKs (like Flutter API clients) based on the current backend specification.
+
+---
+
+## 🖥️ Native Visual Launcher (GUI)
+
+If you prefer a visual approach over the CLI, we provide a robust Native Desktop Control Panel. This launcher allows you to select your YAML configuration files via a file picker, open the developer prompts, and use checkboxes to natively toggle which generator scripts run.
+
+```bash
+gofiber-gui
+```
+*(Alternatively, run `python launcher.py` directly if you skipped global installation).*
+This tool provides a user-friendly way to validate configs and trigger specific Python generation scripts visually.
+
+---
+
+## 🗂️ Templates and Customization
+
+The Go files are generated using Jinja2 templates located in the `tool/templates/` directory.
+
+*   To change the pattern of generated handlers, edit `tool/templates/pkg/controller/controller.go.j2`.
+*   To adjust infrastructure (Docker, Makefile), edit `tool/templates/infra/`.
+*   Variables injected into these templates align exactly with the schema inside `master_config.yaml`.
+
+---
+
+## 🤝 Contributing
+
+1. Extend or fix the Jinja2 templates inside `tool/templates/`.
+2. Add new functionalities by creating a focused `*_generate.py` script and integrating it into `generator.py`.
+3. If changing template structure requirements, update `master_config.yaml` to prevent breaking generation.
+4. Keep the code generation decoupled and domain-agnostic.
+
+---
+
+## 📜 License
+
+MIT License.

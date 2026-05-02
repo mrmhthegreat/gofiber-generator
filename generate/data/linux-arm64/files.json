@@ -1,0 +1,3625 @@
+{
+  "contentHash": "acfe20c148bbb1a4bf3e4e75f8897411366120d0d31758b53a7a0c3de9c3dbd1",
+  "files": [
+    {
+      "name": "_yaml",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "_yaml/__init__.py",
+      "size": 1402,
+      "perm": 436
+    },
+    {
+      "name": "annotated_doc",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "annotated_doc-0.0.4.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "annotated_doc-0.0.4.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "annotated_doc-0.0.4.dist-info/METADATA",
+      "size": 6566,
+      "perm": 436
+    },
+    {
+      "name": "annotated_doc-0.0.4.dist-info/RECORD",
+      "size": 868,
+      "perm": 436
+    },
+    {
+      "name": "annotated_doc-0.0.4.dist-info/WHEEL",
+      "size": 90,
+      "perm": 436
+    },
+    {
+      "name": "annotated_doc-0.0.4.dist-info/entry_points.txt",
+      "size": 34,
+      "perm": 436
+    },
+    {
+      "name": "annotated_doc-0.0.4.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "annotated_doc-0.0.4.dist-info/licenses/LICENSE",
+      "size": 1086,
+      "perm": 436
+    },
+    {
+      "name": "annotated_doc/__init__.py",
+      "size": 52,
+      "perm": 436
+    },
+    {
+      "name": "annotated_doc/main.py",
+      "size": 1075,
+      "perm": 436
+    },
+    {
+      "name": "annotated_doc/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "annotated_types",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "annotated_types-0.7.0.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "annotated_types-0.7.0.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "annotated_types-0.7.0.dist-info/METADATA",
+      "size": 15046,
+      "perm": 436
+    },
+    {
+      "name": "annotated_types-0.7.0.dist-info/RECORD",
+      "size": 802,
+      "perm": 436
+    },
+    {
+      "name": "annotated_types-0.7.0.dist-info/WHEEL",
+      "size": 87,
+      "perm": 436
+    },
+    {
+      "name": "annotated_types-0.7.0.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "annotated_types-0.7.0.dist-info/licenses/LICENSE",
+      "size": 1083,
+      "perm": 436
+    },
+    {
+      "name": "annotated_types/__init__.py",
+      "size": 13819,
+      "perm": 436
+    },
+    {
+      "name": "annotated_types/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "anyio",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "anyio-4.13.0.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "anyio-4.13.0.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "anyio-4.13.0.dist-info/METADATA",
+      "size": 4513,
+      "perm": 436
+    },
+    {
+      "name": "anyio-4.13.0.dist-info/RECORD",
+      "size": 6257,
+      "perm": 436
+    },
+    {
+      "name": "anyio-4.13.0.dist-info/WHEEL",
+      "size": 91,
+      "perm": 436
+    },
+    {
+      "name": "anyio-4.13.0.dist-info/entry_points.txt",
+      "size": 39,
+      "perm": 436
+    },
+    {
+      "name": "anyio-4.13.0.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "anyio-4.13.0.dist-info/licenses/LICENSE",
+      "size": 1081,
+      "perm": 436
+    },
+    {
+      "name": "anyio-4.13.0.dist-info/top_level.txt",
+      "size": 6,
+      "perm": 436
+    },
+    {
+      "name": "anyio/__init__.py",
+      "size": 6170,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_backends",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "anyio/_backends/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_backends/_asyncio.py",
+      "size": 99476,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_backends/_trio.py",
+      "size": 41366,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "anyio/_core/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_asyncio_selector_thread.py",
+      "size": 5626,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_contextmanagers.py",
+      "size": 7215,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_eventloop.py",
+      "size": 6448,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_exceptions.py",
+      "size": 4407,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_fileio.py",
+      "size": 25665,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_resources.py",
+      "size": 435,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_signals.py",
+      "size": 1016,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_sockets.py",
+      "size": 34977,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_streams.py",
+      "size": 1806,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_subprocesses.py",
+      "size": 7916,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_synchronization.py",
+      "size": 21061,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_tasks.py",
+      "size": 5435,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_tempfile.py",
+      "size": 19624,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_testing.py",
+      "size": 2340,
+      "perm": 436
+    },
+    {
+      "name": "anyio/_core/_typedattr.py",
+      "size": 2508,
+      "perm": 436
+    },
+    {
+      "name": "anyio/abc",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "anyio/abc/__init__.py",
+      "size": 2869,
+      "perm": 436
+    },
+    {
+      "name": "anyio/abc/_eventloop.py",
+      "size": 10629,
+      "perm": 436
+    },
+    {
+      "name": "anyio/abc/_resources.py",
+      "size": 783,
+      "perm": 436
+    },
+    {
+      "name": "anyio/abc/_sockets.py",
+      "size": 13124,
+      "perm": 436
+    },
+    {
+      "name": "anyio/abc/_streams.py",
+      "size": 7481,
+      "perm": 436
+    },
+    {
+      "name": "anyio/abc/_subprocesses.py",
+      "size": 2067,
+      "perm": 436
+    },
+    {
+      "name": "anyio/abc/_tasks.py",
+      "size": 3721,
+      "perm": 436
+    },
+    {
+      "name": "anyio/abc/_testing.py",
+      "size": 1821,
+      "perm": 436
+    },
+    {
+      "name": "anyio/from_thread.py",
+      "size": 19141,
+      "perm": 436
+    },
+    {
+      "name": "anyio/functools.py",
+      "size": 12076,
+      "perm": 436
+    },
+    {
+      "name": "anyio/lowlevel.py",
+      "size": 5158,
+      "perm": 436
+    },
+    {
+      "name": "anyio/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "anyio/pytest_plugin.py",
+      "size": 12775,
+      "perm": 436
+    },
+    {
+      "name": "anyio/streams",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "anyio/streams/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "anyio/streams/buffered.py",
+      "size": 6263,
+      "perm": 436
+    },
+    {
+      "name": "anyio/streams/file.py",
+      "size": 4428,
+      "perm": 436
+    },
+    {
+      "name": "anyio/streams/memory.py",
+      "size": 10740,
+      "perm": 436
+    },
+    {
+      "name": "anyio/streams/stapled.py",
+      "size": 4390,
+      "perm": 436
+    },
+    {
+      "name": "anyio/streams/text.py",
+      "size": 5765,
+      "perm": 436
+    },
+    {
+      "name": "anyio/streams/tls.py",
+      "size": 15303,
+      "perm": 436
+    },
+    {
+      "name": "anyio/to_interpreter.py",
+      "size": 7100,
+      "perm": 436
+    },
+    {
+      "name": "anyio/to_process.py",
+      "size": 9798,
+      "perm": 436
+    },
+    {
+      "name": "anyio/to_thread.py",
+      "size": 2693,
+      "perm": 436
+    },
+    {
+      "name": "bin",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "bin/fastapi",
+      "size": 233,
+      "perm": 509
+    },
+    {
+      "name": "bin/gofiber-gen",
+      "size": 231,
+      "perm": 509
+    },
+    {
+      "name": "bin/gofiber-gui",
+      "size": 230,
+      "perm": 509
+    },
+    {
+      "name": "bin/gofiber-serve",
+      "size": 228,
+      "perm": 509
+    },
+    {
+      "name": "bin/uvicorn",
+      "size": 234,
+      "perm": 509
+    },
+    {
+      "name": "click",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "click-8.3.3.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "click-8.3.3.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "click-8.3.3.dist-info/METADATA",
+      "size": 2621,
+      "perm": 436
+    },
+    {
+      "name": "click-8.3.3.dist-info/RECORD",
+      "size": 2531,
+      "perm": 436
+    },
+    {
+      "name": "click-8.3.3.dist-info/WHEEL",
+      "size": 82,
+      "perm": 436
+    },
+    {
+      "name": "click-8.3.3.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "click-8.3.3.dist-info/licenses/LICENSE.txt",
+      "size": 1475,
+      "perm": 436
+    },
+    {
+      "name": "click/__init__.py",
+      "size": 4526,
+      "perm": 436
+    },
+    {
+      "name": "click/_compat.py",
+      "size": 18693,
+      "perm": 436
+    },
+    {
+      "name": "click/_termui_impl.py",
+      "size": 28066,
+      "perm": 436
+    },
+    {
+      "name": "click/_textwrap.py",
+      "size": 1400,
+      "perm": 436
+    },
+    {
+      "name": "click/_utils.py",
+      "size": 943,
+      "perm": 436
+    },
+    {
+      "name": "click/_winconsole.py",
+      "size": 8465,
+      "perm": 436
+    },
+    {
+      "name": "click/core.py",
+      "size": 134478,
+      "perm": 436
+    },
+    {
+      "name": "click/decorators.py",
+      "size": 18461,
+      "perm": 436
+    },
+    {
+      "name": "click/exceptions.py",
+      "size": 9954,
+      "perm": 436
+    },
+    {
+      "name": "click/formatting.py",
+      "size": 9730,
+      "perm": 436
+    },
+    {
+      "name": "click/globals.py",
+      "size": 1923,
+      "perm": 436
+    },
+    {
+      "name": "click/parser.py",
+      "size": 19010,
+      "perm": 436
+    },
+    {
+      "name": "click/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "click/shell_completion.py",
+      "size": 20994,
+      "perm": 436
+    },
+    {
+      "name": "click/termui.py",
+      "size": 31434,
+      "perm": 436
+    },
+    {
+      "name": "click/testing.py",
+      "size": 22714,
+      "perm": 436
+    },
+    {
+      "name": "click/types.py",
+      "size": 39927,
+      "perm": 436
+    },
+    {
+      "name": "click/utils.py",
+      "size": 20282,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter-5.2.2.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter-5.2.2.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter-5.2.2.dist-info/LICENSE",
+      "size": 1071,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter-5.2.2.dist-info/METADATA",
+      "size": 677,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter-5.2.2.dist-info/RECORD",
+      "size": 9509,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter-5.2.2.dist-info/REQUESTED",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter-5.2.2.dist-info/WHEEL",
+      "size": 92,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter-5.2.2.dist-info/top_level.txt",
+      "size": 14,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/__init__.py",
+      "size": 2861,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/assets",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/assets/.DS_Store",
+      "size": 6148,
+      "perm": 436,
+      "compressed": true
+    },
+    {
+      "name": "customtkinter/assets/fonts",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/assets/fonts/CustomTkinter_shapes_font.otf",
+      "size": 3528,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/assets/fonts/Roboto",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/assets/fonts/Roboto/Roboto-Medium.ttf",
+      "size": 168644,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/assets/fonts/Roboto/Roboto-Regular.ttf",
+      "size": 168260,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/assets/icons",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/assets/icons/.DS_Store",
+      "size": 6148,
+      "perm": 436,
+      "compressed": true
+    },
+    {
+      "name": "customtkinter/assets/icons/CustomTkinter_icon_Windows.ico",
+      "size": 13238,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/assets/themes",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/assets/themes/blue.json",
+      "size": 4520,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/assets/themes/dark-blue.json",
+      "size": 4514,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/assets/themes/green.json",
+      "size": 4515,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/windows/__init__.py",
+      "size": 107,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/ctk_input_dialog.py",
+      "size": 5897,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/ctk_tk.py",
+      "size": 15646,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/ctk_toplevel.py",
+      "size": 14750,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/windows/widgets/__init__.py",
+      "size": 622,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/appearance_mode",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/windows/widgets/appearance_mode/__init__.py",
+      "size": 172,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/appearance_mode/appearance_mode_base_class.py",
+      "size": 2602,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/appearance_mode/appearance_mode_tracker.py",
+      "size": 3630,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/core_rendering",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/windows/widgets/core_rendering/__init__.py",
+      "size": 324,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/core_rendering/ctk_canvas.py",
+      "size": 5894,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/core_rendering/draw_engine.py",
+      "size": 91030,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/core_widget_classes",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/windows/widgets/core_widget_classes/__init__.py",
+      "size": 81,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/core_widget_classes/ctk_base_class.py",
+      "size": 15793,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/core_widget_classes/dropdown_menu.py",
+      "size": 8516,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_button.py",
+      "size": 27699,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_checkbox.py",
+      "size": 22420,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_combobox.py",
+      "size": 20602,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_entry.py",
+      "size": 17898,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_frame.py",
+      "size": 9515,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_label.py",
+      "size": 13106,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_optionmenu.py",
+      "size": 19637,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_progressbar.py",
+      "size": 14120,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_radiobutton.py",
+      "size": 20215,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_scrollable_frame.py",
+      "size": 15121,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_scrollbar.py",
+      "size": 13860,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_segmented_button.py",
+      "size": 20878,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_slider.py",
+      "size": 18867,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_switch.py",
+      "size": 23420,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_tabview.py",
+      "size": 21472,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/ctk_textbox.py",
+      "size": 24571,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/font",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/windows/widgets/font/__init__.py",
+      "size": 1302,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/font/ctk_font.py",
+      "size": 3825,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/font/font_manager.py",
+      "size": 2268,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/image",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/windows/widgets/image/__init__.py",
+      "size": 32,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/image/ctk_image.py",
+      "size": 5306,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/scaling",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/windows/widgets/scaling/__init__.py",
+      "size": 287,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/scaling/scaling_base_class.py",
+      "size": 7060,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/scaling/scaling_tracker.py",
+      "size": 8745,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/theme",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/windows/widgets/theme/__init__.py",
+      "size": 471,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/theme/theme_manager.py",
+      "size": 2179,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/utility",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "customtkinter/windows/widgets/utility/__init__.py",
+      "size": 72,
+      "perm": 436
+    },
+    {
+      "name": "customtkinter/windows/widgets/utility/utility_functions.py",
+      "size": 766,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "darkdetect-0.8.0.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "darkdetect-0.8.0.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect-0.8.0.dist-info/LICENSE",
+      "size": 1495,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect-0.8.0.dist-info/METADATA",
+      "size": 3590,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect-0.8.0.dist-info/RECORD",
+      "size": 1398,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect-0.8.0.dist-info/REQUESTED",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect-0.8.0.dist-info/WHEEL",
+      "size": 92,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect-0.8.0.dist-info/top_level.txt",
+      "size": 11,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect/__init__.py",
+      "size": 1412,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect/__main__.py",
+      "size": 332,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect/_dummy.py",
+      "size": 473,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect/_linux_detect.py",
+      "size": 1584,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect/_mac_detect.py",
+      "size": 3745,
+      "perm": 436
+    },
+    {
+      "name": "darkdetect/_windows_detect.py",
+      "size": 4172,
+      "perm": 436
+    },
+    {
+      "name": "fastapi",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "fastapi-0.136.1.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "fastapi-0.136.1.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "fastapi-0.136.1.dist-info/METADATA",
+      "size": 28315,
+      "perm": 436
+    },
+    {
+      "name": "fastapi-0.136.1.dist-info/RECORD",
+      "size": 7646,
+      "perm": 436
+    },
+    {
+      "name": "fastapi-0.136.1.dist-info/REQUESTED",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "fastapi-0.136.1.dist-info/WHEEL",
+      "size": 90,
+      "perm": 436
+    },
+    {
+      "name": "fastapi-0.136.1.dist-info/entry_points.txt",
+      "size": 61,
+      "perm": 436
+    },
+    {
+      "name": "fastapi-0.136.1.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "fastapi-0.136.1.dist-info/licenses/LICENSE",
+      "size": 1086,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/.agents",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "fastapi/.agents/skills",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "fastapi/.agents/skills/fastapi",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "fastapi/.agents/skills/fastapi/SKILL.md",
+      "size": 10388,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/.agents/skills/fastapi/references",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "fastapi/.agents/skills/fastapi/references/dependencies.md",
+      "size": 3263,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/.agents/skills/fastapi/references/other-tools.md",
+      "size": 1526,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/.agents/skills/fastapi/references/streaming.md",
+      "size": 2581,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/__init__.py",
+      "size": 1081,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/__main__.py",
+      "size": 37,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/_compat",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "fastapi/_compat/__init__.py",
+      "size": 2095,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/_compat/shared.py",
+      "size": 7045,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/_compat/v2.py",
+      "size": 17532,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/applications.py",
+      "size": 181470,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/background.py",
+      "size": 1820,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/cli.py",
+      "size": 455,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/concurrency.py",
+      "size": 1489,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/datastructures.py",
+      "size": 5321,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/dependencies",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "fastapi/dependencies/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/dependencies/models.py",
+      "size": 7250,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/dependencies/utils.py",
+      "size": 39574,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/encoders.py",
+      "size": 11683,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/exception_handlers.py",
+      "size": 1275,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/exceptions.py",
+      "size": 7453,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/logger.py",
+      "size": 54,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/middleware",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "fastapi/middleware/__init__.py",
+      "size": 58,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/middleware/asyncexitstack.py",
+      "size": 637,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/middleware/cors.py",
+      "size": 79,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/middleware/gzip.py",
+      "size": 79,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/middleware/httpsredirect.py",
+      "size": 115,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/middleware/trustedhost.py",
+      "size": 109,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/middleware/wsgi.py",
+      "size": 107,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/openapi",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "fastapi/openapi/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/openapi/constants.py",
+      "size": 153,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/openapi/docs.py",
+      "size": 12425,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/openapi/models.py",
+      "size": 14591,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/openapi/utils.py",
+      "size": 26262,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/param_functions.py",
+      "size": 69596,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/params.py",
+      "size": 26275,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/requests.py",
+      "size": 142,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/responses.py",
+      "size": 4194,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/routing.py",
+      "size": 197632,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/security",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "fastapi/security/__init__.py",
+      "size": 881,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/security/api_key.py",
+      "size": 9793,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/security/base.py",
+      "size": 141,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/security/http.py",
+      "size": 13410,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/security/oauth2.py",
+      "size": 24178,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/security/open_id_connect_url.py",
+      "size": 3136,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/security/utils.py",
+      "size": 261,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/sse.py",
+      "size": 6394,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/staticfiles.py",
+      "size": 69,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/templating.py",
+      "size": 76,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/testclient.py",
+      "size": 66,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/types.py",
+      "size": 438,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/utils.py",
+      "size": 4341,
+      "perm": 436
+    },
+    {
+      "name": "fastapi/websockets.py",
+      "size": 222,
+      "perm": 436
+    },
+    {
+      "name": "generator.py",
+      "size": 20231,
+      "perm": 436
+    },
+    {
+      "name": "generators",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "generators/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "generators/api_client.py",
+      "size": 32670,
+      "perm": 436
+    },
+    {
+      "name": "generators/api_client_generator.py",
+      "size": 35999,
+      "perm": 436
+    },
+    {
+      "name": "generators/app_generate.py",
+      "size": 10369,
+      "perm": 436
+    },
+    {
+      "name": "generators/auth_generate.py",
+      "size": 11591,
+      "perm": 436
+    },
+    {
+      "name": "generators/chat_websocket_generator.py",
+      "size": 9737,
+      "perm": 436
+    },
+    {
+      "name": "generators/format_generated_code.py",
+      "size": 7408,
+      "perm": 436
+    },
+    {
+      "name": "generators/graphql_generator.py",
+      "size": 6872,
+      "perm": 436
+    },
+    {
+      "name": "generators/grpc_generator.py",
+      "size": 6011,
+      "perm": 436
+    },
+    {
+      "name": "generators/help_utils.py",
+      "size": 2070,
+      "perm": 436
+    },
+    {
+      "name": "generators/imap_generate.py",
+      "size": 6050,
+      "perm": 436
+    },
+    {
+      "name": "generators/middleware_generator.py",
+      "size": 11803,
+      "perm": 436
+    },
+    {
+      "name": "generators/native_vifber_gui.py",
+      "size": 13364,
+      "perm": 436
+    },
+    {
+      "name": "generators/notification_generator.py",
+      "size": 7423,
+      "perm": 436
+    },
+    {
+      "name": "generators/rbac_generate.py",
+      "size": 4875,
+      "perm": 436
+    },
+    {
+      "name": "generators/repo_model_config_generate.py",
+      "size": 102232,
+      "perm": 436
+    },
+    {
+      "name": "generators/routes.py",
+      "size": 50829,
+      "perm": 436
+    },
+    {
+      "name": "generators/storage_generate.py",
+      "size": 4931,
+      "perm": 436
+    },
+    {
+      "name": "generators/validate_config.py",
+      "size": 28076,
+      "perm": 436
+    },
+    {
+      "name": "generators/web_assets",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "generators/web_assets/app.js",
+      "size": 3397,
+      "perm": 509
+    },
+    {
+      "name": "generators/web_assets/index.html",
+      "size": 7399,
+      "perm": 509
+    },
+    {
+      "name": "generators/web_assets/style.css",
+      "size": 5892,
+      "perm": 509
+    },
+    {
+      "name": "gofiber_generator-0.2.3.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "gofiber_generator-0.2.3.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "gofiber_generator-0.2.3.dist-info/METADATA",
+      "size": 6974,
+      "perm": 436
+    },
+    {
+      "name": "gofiber_generator-0.2.3.dist-info/RECORD",
+      "size": 4366,
+      "perm": 436
+    },
+    {
+      "name": "gofiber_generator-0.2.3.dist-info/REQUESTED",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "gofiber_generator-0.2.3.dist-info/WHEEL",
+      "size": 91,
+      "perm": 436
+    },
+    {
+      "name": "gofiber_generator-0.2.3.dist-info/entry_points.txt",
+      "size": 103,
+      "perm": 509
+    },
+    {
+      "name": "gofiber_generator-0.2.3.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "gofiber_generator-0.2.3.dist-info/licenses/LICENSE",
+      "size": 1069,
+      "perm": 509
+    },
+    {
+      "name": "gofiber_generator-0.2.3.dist-info/top_level.txt",
+      "size": 37,
+      "perm": 509
+    },
+    {
+      "name": "h11",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "h11-0.16.0.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "h11-0.16.0.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "h11-0.16.0.dist-info/METADATA",
+      "size": 8348,
+      "perm": 436
+    },
+    {
+      "name": "h11-0.16.0.dist-info/RECORD",
+      "size": 1830,
+      "perm": 436
+    },
+    {
+      "name": "h11-0.16.0.dist-info/WHEEL",
+      "size": 91,
+      "perm": 436
+    },
+    {
+      "name": "h11-0.16.0.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "h11-0.16.0.dist-info/licenses/LICENSE.txt",
+      "size": 1124,
+      "perm": 436
+    },
+    {
+      "name": "h11-0.16.0.dist-info/top_level.txt",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "h11/__init__.py",
+      "size": 1507,
+      "perm": 436
+    },
+    {
+      "name": "h11/_abnf.py",
+      "size": 4815,
+      "perm": 436
+    },
+    {
+      "name": "h11/_connection.py",
+      "size": 26863,
+      "perm": 436
+    },
+    {
+      "name": "h11/_events.py",
+      "size": 11792,
+      "perm": 436
+    },
+    {
+      "name": "h11/_headers.py",
+      "size": 10412,
+      "perm": 436
+    },
+    {
+      "name": "h11/_readers.py",
+      "size": 8590,
+      "perm": 436
+    },
+    {
+      "name": "h11/_receivebuffer.py",
+      "size": 5252,
+      "perm": 436
+    },
+    {
+      "name": "h11/_state.py",
+      "size": 13231,
+      "perm": 436
+    },
+    {
+      "name": "h11/_util.py",
+      "size": 4888,
+      "perm": 436
+    },
+    {
+      "name": "h11/_version.py",
+      "size": 686,
+      "perm": 436
+    },
+    {
+      "name": "h11/_writers.py",
+      "size": 5081,
+      "perm": 436
+    },
+    {
+      "name": "h11/py.typed",
+      "size": 7,
+      "perm": 436
+    },
+    {
+      "name": "idna",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "idna-3.13.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "idna-3.13.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "idna-3.13.dist-info/METADATA",
+      "size": 8033,
+      "perm": 436
+    },
+    {
+      "name": "idna-3.13.dist-info/RECORD",
+      "size": 1392,
+      "perm": 436
+    },
+    {
+      "name": "idna-3.13.dist-info/WHEEL",
+      "size": 82,
+      "perm": 436
+    },
+    {
+      "name": "idna-3.13.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "idna-3.13.dist-info/licenses/LICENSE.md",
+      "size": 1541,
+      "perm": 436
+    },
+    {
+      "name": "idna/__init__.py",
+      "size": 868,
+      "perm": 436
+    },
+    {
+      "name": "idna/codec.py",
+      "size": 3438,
+      "perm": 436
+    },
+    {
+      "name": "idna/compat.py",
+      "size": 316,
+      "perm": 436
+    },
+    {
+      "name": "idna/core.py",
+      "size": 13374,
+      "perm": 436
+    },
+    {
+      "name": "idna/idnadata.py",
+      "size": 92613,
+      "perm": 436
+    },
+    {
+      "name": "idna/intranges.py",
+      "size": 1898,
+      "perm": 436
+    },
+    {
+      "name": "idna/package_data.py",
+      "size": 21,
+      "perm": 436
+    },
+    {
+      "name": "idna/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "idna/uts46data.py",
+      "size": 202713,
+      "perm": 436
+    },
+    {
+      "name": "jinja2",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "jinja2-3.1.6.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "jinja2-3.1.6.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "jinja2-3.1.6.dist-info/METADATA",
+      "size": 2871,
+      "perm": 436
+    },
+    {
+      "name": "jinja2-3.1.6.dist-info/RECORD",
+      "size": 3706,
+      "perm": 436
+    },
+    {
+      "name": "jinja2-3.1.6.dist-info/REQUESTED",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "jinja2-3.1.6.dist-info/WHEEL",
+      "size": 82,
+      "perm": 436
+    },
+    {
+      "name": "jinja2-3.1.6.dist-info/entry_points.txt",
+      "size": 58,
+      "perm": 436
+    },
+    {
+      "name": "jinja2-3.1.6.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "jinja2-3.1.6.dist-info/licenses/LICENSE.txt",
+      "size": 1475,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/__init__.py",
+      "size": 1928,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/_identifier.py",
+      "size": 1958,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/async_utils.py",
+      "size": 2834,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/bccache.py",
+      "size": 14061,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/compiler.py",
+      "size": 74131,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/constants.py",
+      "size": 1433,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/debug.py",
+      "size": 6297,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/defaults.py",
+      "size": 1267,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/environment.py",
+      "size": 61513,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/exceptions.py",
+      "size": 5071,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/ext.py",
+      "size": 31875,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/filters.py",
+      "size": 55212,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/idtracking.py",
+      "size": 10555,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/lexer.py",
+      "size": 29786,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/loaders.py",
+      "size": 24055,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/meta.py",
+      "size": 4397,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/nativetypes.py",
+      "size": 4210,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/nodes.py",
+      "size": 34579,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/optimizer.py",
+      "size": 1651,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/parser.py",
+      "size": 40383,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/runtime.py",
+      "size": 34249,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/sandbox.py",
+      "size": 15009,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/tests.py",
+      "size": 5926,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/utils.py",
+      "size": 24129,
+      "perm": 436
+    },
+    {
+      "name": "jinja2/visitor.py",
+      "size": 3557,
+      "perm": 436
+    },
+    {
+      "name": "launcher.py",
+      "size": 6585,
+      "perm": 436
+    },
+    {
+      "name": "markupsafe",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "markupsafe-3.0.3.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "markupsafe-3.0.3.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "markupsafe-3.0.3.dist-info/METADATA",
+      "size": 2690,
+      "perm": 436
+    },
+    {
+      "name": "markupsafe-3.0.3.dist-info/RECORD",
+      "size": 1209,
+      "perm": 436
+    },
+    {
+      "name": "markupsafe-3.0.3.dist-info/REQUESTED",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "markupsafe-3.0.3.dist-info/WHEEL",
+      "size": 193,
+      "perm": 436
+    },
+    {
+      "name": "markupsafe-3.0.3.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "markupsafe-3.0.3.dist-info/licenses/LICENSE.txt",
+      "size": 1475,
+      "perm": 436
+    },
+    {
+      "name": "markupsafe-3.0.3.dist-info/top_level.txt",
+      "size": 11,
+      "perm": 436
+    },
+    {
+      "name": "markupsafe/__init__.py",
+      "size": 13248,
+      "perm": 436
+    },
+    {
+      "name": "markupsafe/_native.py",
+      "size": 210,
+      "perm": 436
+    },
+    {
+      "name": "markupsafe/_speedups.c",
+      "size": 4327,
+      "perm": 436
+    },
+    {
+      "name": "markupsafe/_speedups.cpython-313-aarch64-linux-gnu.so",
+      "size": 230712,
+      "perm": 509,
+      "compressed": true
+    },
+    {
+      "name": "markupsafe/_speedups.pyi",
+      "size": 41,
+      "perm": 436
+    },
+    {
+      "name": "markupsafe/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "packaging",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "packaging-26.2.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "packaging-26.2.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "packaging-26.2.dist-info/METADATA",
+      "size": 3543,
+      "perm": 436
+    },
+    {
+      "name": "packaging-26.2.dist-info/RECORD",
+      "size": 3414,
+      "perm": 436
+    },
+    {
+      "name": "packaging-26.2.dist-info/REQUESTED",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "packaging-26.2.dist-info/WHEEL",
+      "size": 82,
+      "perm": 436
+    },
+    {
+      "name": "packaging-26.2.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "packaging-26.2.dist-info/licenses/LICENSE",
+      "size": 197,
+      "perm": 436
+    },
+    {
+      "name": "packaging-26.2.dist-info/licenses/LICENSE.APACHE",
+      "size": 10174,
+      "perm": 436
+    },
+    {
+      "name": "packaging-26.2.dist-info/licenses/LICENSE.BSD",
+      "size": 1344,
+      "perm": 436
+    },
+    {
+      "name": "packaging/__init__.py",
+      "size": 494,
+      "perm": 436
+    },
+    {
+      "name": "packaging/_elffile.py",
+      "size": 3211,
+      "perm": 436
+    },
+    {
+      "name": "packaging/_manylinux.py",
+      "size": 9559,
+      "perm": 436
+    },
+    {
+      "name": "packaging/_musllinux.py",
+      "size": 2707,
+      "perm": 436
+    },
+    {
+      "name": "packaging/_parser.py",
+      "size": 11698,
+      "perm": 436
+    },
+    {
+      "name": "packaging/_structures.py",
+      "size": 1109,
+      "perm": 436
+    },
+    {
+      "name": "packaging/_tokenizer.py",
+      "size": 5391,
+      "perm": 436
+    },
+    {
+      "name": "packaging/dependency_groups.py",
+      "size": 10218,
+      "perm": 436
+    },
+    {
+      "name": "packaging/direct_url.py",
+      "size": 10917,
+      "perm": 436
+    },
+    {
+      "name": "packaging/errors.py",
+      "size": 2680,
+      "perm": 436
+    },
+    {
+      "name": "packaging/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "packaging/licenses/__init__.py",
+      "size": 7293,
+      "perm": 436
+    },
+    {
+      "name": "packaging/licenses/_spdx.py",
+      "size": 51122,
+      "perm": 436
+    },
+    {
+      "name": "packaging/markers.py",
+      "size": 17055,
+      "perm": 436
+    },
+    {
+      "name": "packaging/metadata.py",
+      "size": 38770,
+      "perm": 436
+    },
+    {
+      "name": "packaging/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "packaging/pylock.py",
+      "size": 33890,
+      "perm": 436
+    },
+    {
+      "name": "packaging/requirements.py",
+      "size": 4383,
+      "perm": 436
+    },
+    {
+      "name": "packaging/specifiers.py",
+      "size": 71514,
+      "perm": 436
+    },
+    {
+      "name": "packaging/tags.py",
+      "size": 34224,
+      "perm": 436
+    },
+    {
+      "name": "packaging/utils.py",
+      "size": 9848,
+      "perm": 436
+    },
+    {
+      "name": "packaging/version.py",
+      "size": 38369,
+      "perm": 436
+    },
+    {
+      "name": "pydantic",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pydantic-2.13.3.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pydantic-2.13.3.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "pydantic-2.13.3.dist-info/METADATA",
+      "size": 108770,
+      "perm": 436
+    },
+    {
+      "name": "pydantic-2.13.3.dist-info/RECORD",
+      "size": 15546,
+      "perm": 436
+    },
+    {
+      "name": "pydantic-2.13.3.dist-info/REQUESTED",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "pydantic-2.13.3.dist-info/WHEEL",
+      "size": 87,
+      "perm": 436
+    },
+    {
+      "name": "pydantic-2.13.3.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pydantic-2.13.3.dist-info/licenses/LICENSE",
+      "size": 1129,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/__init__.py",
+      "size": 15812,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pydantic/_internal/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_config.py",
+      "size": 14839,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_core_metadata.py",
+      "size": 5162,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_core_utils.py",
+      "size": 6487,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_dataclasses.py",
+      "size": 13188,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_decorators.py",
+      "size": 33620,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_decorators_v1.py",
+      "size": 6185,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_discriminated_union.py",
+      "size": 26255,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_docs_extraction.py",
+      "size": 4127,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_fields.py",
+      "size": 31557,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_forward_ref.py",
+      "size": 611,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_generate_schema.py",
+      "size": 135560,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_generics.py",
+      "size": 23393,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_git.py",
+      "size": 809,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_import_utils.py",
+      "size": 402,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_internal_dataclass.py",
+      "size": 144,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_known_annotated_metadata.py",
+      "size": 16805,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_mock_val_ser.py",
+      "size": 8885,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_model_construction.py",
+      "size": 38928,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_namespace_utils.py",
+      "size": 12878,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_repr.py",
+      "size": 5172,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_schema_gather.py",
+      "size": 9052,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_schema_generation_shared.py",
+      "size": 4842,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_serializers.py",
+      "size": 1491,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_signature.py",
+      "size": 6808,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_typing_extra.py",
+      "size": 31574,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_utils.py",
+      "size": 15959,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_validate_call.py",
+      "size": 5366,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_internal/_validators.py",
+      "size": 20563,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/_migration.py",
+      "size": 12160,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/alias_generators.py",
+      "size": 2124,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/aliases.py",
+      "size": 4937,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/annotated_handlers.py",
+      "size": 4407,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/class_validators.py",
+      "size": 148,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/color.py",
+      "size": 21481,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/config.py",
+      "size": 44533,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/dataclasses.py",
+      "size": 18963,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/datetime_parse.py",
+      "size": 150,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/decorator.py",
+      "size": 145,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/deprecated",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pydantic/deprecated/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/deprecated/class_validators.py",
+      "size": 10281,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/deprecated/config.py",
+      "size": 2663,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/deprecated/copy_internals.py",
+      "size": 7618,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/deprecated/decorator.py",
+      "size": 10845,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/deprecated/json.py",
+      "size": 4657,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/deprecated/parse.py",
+      "size": 2511,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/deprecated/tools.py",
+      "size": 3330,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/env_settings.py",
+      "size": 148,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/error_wrappers.py",
+      "size": 150,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/errors.py",
+      "size": 6013,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/experimental",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pydantic/experimental/__init__.py",
+      "size": 104,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/experimental/arguments_schema.py",
+      "size": 1866,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/experimental/missing_sentinel.py",
+      "size": 127,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/experimental/pipeline.py",
+      "size": 23956,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/fields.py",
+      "size": 82023,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/functional_serializers.py",
+      "size": 18117,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/functional_validators.py",
+      "size": 31724,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/generics.py",
+      "size": 144,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/json.py",
+      "size": 140,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/json_schema.py",
+      "size": 126176,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/main.py",
+      "size": 85334,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/mypy.py",
+      "size": 60971,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/networks.py",
+      "size": 42102,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/parse.py",
+      "size": 141,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/plugin",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pydantic/plugin/__init__.py",
+      "size": 7333,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/plugin/_loader.py",
+      "size": 2213,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/plugin/_schema_validator.py",
+      "size": 5445,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/root_model.py",
+      "size": 6394,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/schema.py",
+      "size": 142,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/tools.py",
+      "size": 141,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/type_adapter.py",
+      "size": 36123,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/types.py",
+      "size": 105961,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/typing.py",
+      "size": 138,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/utils.py",
+      "size": 141,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pydantic/v1/__init__.py",
+      "size": 2946,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/_hypothesis_plugin.py",
+      "size": 14847,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/annotated_types.py",
+      "size": 3157,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/class_validators.py",
+      "size": 14672,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/color.py",
+      "size": 16844,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/config.py",
+      "size": 6532,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/dataclasses.py",
+      "size": 18172,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/datetime_parse.py",
+      "size": 7724,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/decorator.py",
+      "size": 10339,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/env_settings.py",
+      "size": 14105,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/error_wrappers.py",
+      "size": 5196,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/errors.py",
+      "size": 17726,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/fields.py",
+      "size": 50649,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/generics.py",
+      "size": 17829,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/json.py",
+      "size": 3390,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/main.py",
+      "size": 45697,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/mypy.py",
+      "size": 38860,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/networks.py",
+      "size": 22124,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/parse.py",
+      "size": 1821,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/schema.py",
+      "size": 47801,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/tools.py",
+      "size": 2881,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/types.py",
+      "size": 35455,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/typing.py",
+      "size": 20102,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/utils.py",
+      "size": 26014,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/validators.py",
+      "size": 22187,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/v1/version.py",
+      "size": 1039,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/validate_call_decorator.py",
+      "size": 4416,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/validators.py",
+      "size": 146,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/version.py",
+      "size": 3985,
+      "perm": 436
+    },
+    {
+      "name": "pydantic/warnings.py",
+      "size": 4822,
+      "perm": 436
+    },
+    {
+      "name": "pydantic_core",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pydantic_core-2.46.3.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pydantic_core-2.46.3.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "pydantic_core-2.46.3.dist-info/METADATA",
+      "size": 6573,
+      "perm": 436
+    },
+    {
+      "name": "pydantic_core-2.46.3.dist-info/RECORD",
+      "size": 1128,
+      "perm": 436
+    },
+    {
+      "name": "pydantic_core-2.46.3.dist-info/WHEEL",
+      "size": 149,
+      "perm": 436
+    },
+    {
+      "name": "pydantic_core-2.46.3.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pydantic_core-2.46.3.dist-info/licenses/LICENSE",
+      "size": 1080,
+      "perm": 436
+    },
+    {
+      "name": "pydantic_core-2.46.3.dist-info/sboms",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pydantic_core-2.46.3.dist-info/sboms/pydantic-core.cyclonedx.json",
+      "size": 125577,
+      "perm": 436
+    },
+    {
+      "name": "pydantic_core/__init__.py",
+      "size": 5115,
+      "perm": 436
+    },
+    {
+      "name": "pydantic_core/_pydantic_core.cpython-313-aarch64-linux-gnu.so",
+      "size": 4217912,
+      "perm": 509,
+      "compressed": true
+    },
+    {
+      "name": "pydantic_core/_pydantic_core.pyi",
+      "size": 45932,
+      "perm": 436
+    },
+    {
+      "name": "pydantic_core/core_schema.py",
+      "size": 155574,
+      "perm": 436
+    },
+    {
+      "name": "pydantic_core/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "pyyaml-6.0.3.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pyyaml-6.0.3.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "pyyaml-6.0.3.dist-info/METADATA",
+      "size": 2351,
+      "perm": 436
+    },
+    {
+      "name": "pyyaml-6.0.3.dist-info/RECORD",
+      "size": 2794,
+      "perm": 436
+    },
+    {
+      "name": "pyyaml-6.0.3.dist-info/REQUESTED",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "pyyaml-6.0.3.dist-info/WHEEL",
+      "size": 193,
+      "perm": 436
+    },
+    {
+      "name": "pyyaml-6.0.3.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "pyyaml-6.0.3.dist-info/licenses/LICENSE",
+      "size": 1101,
+      "perm": 436
+    },
+    {
+      "name": "pyyaml-6.0.3.dist-info/top_level.txt",
+      "size": 11,
+      "perm": 436
+    },
+    {
+      "name": "server.py",
+      "size": 3339,
+      "perm": 436
+    },
+    {
+      "name": "starlette",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "starlette-1.0.0.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "starlette-1.0.0.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "starlette-1.0.0.dist-info/METADATA",
+      "size": 6312,
+      "perm": 436
+    },
+    {
+      "name": "starlette-1.0.0.dist-info/RECORD",
+      "size": 5185,
+      "perm": 436
+    },
+    {
+      "name": "starlette-1.0.0.dist-info/WHEEL",
+      "size": 87,
+      "perm": 436
+    },
+    {
+      "name": "starlette-1.0.0.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "starlette-1.0.0.dist-info/licenses/LICENSE.md",
+      "size": 1518,
+      "perm": 436
+    },
+    {
+      "name": "starlette/__init__.py",
+      "size": 22,
+      "perm": 436
+    },
+    {
+      "name": "starlette/_exception_handler.py",
+      "size": 2205,
+      "perm": 436
+    },
+    {
+      "name": "starlette/_utils.py",
+      "size": 2833,
+      "perm": 436
+    },
+    {
+      "name": "starlette/applications.py",
+      "size": 5291,
+      "perm": 436
+    },
+    {
+      "name": "starlette/authentication.py",
+      "size": 4750,
+      "perm": 436
+    },
+    {
+      "name": "starlette/background.py",
+      "size": 1122,
+      "perm": 436
+    },
+    {
+      "name": "starlette/concurrency.py",
+      "size": 1630,
+      "perm": 436
+    },
+    {
+      "name": "starlette/config.py",
+      "size": 4426,
+      "perm": 436
+    },
+    {
+      "name": "starlette/convertors.py",
+      "size": 2304,
+      "perm": 436
+    },
+    {
+      "name": "starlette/datastructures.py",
+      "size": 22829,
+      "perm": 436
+    },
+    {
+      "name": "starlette/endpoints.py",
+      "size": 5099,
+      "perm": 436
+    },
+    {
+      "name": "starlette/exceptions.py",
+      "size": 1066,
+      "perm": 436
+    },
+    {
+      "name": "starlette/formparsers.py",
+      "size": 11132,
+      "perm": 436
+    },
+    {
+      "name": "starlette/middleware",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "starlette/middleware/__init__.py",
+      "size": 1349,
+      "perm": 436
+    },
+    {
+      "name": "starlette/middleware/authentication.py",
+      "size": 1800,
+      "perm": 436
+    },
+    {
+      "name": "starlette/middleware/base.py",
+      "size": 10333,
+      "perm": 436
+    },
+    {
+      "name": "starlette/middleware/cors.py",
+      "size": 7509,
+      "perm": 436
+    },
+    {
+      "name": "starlette/middleware/errors.py",
+      "size": 8037,
+      "perm": 436
+    },
+    {
+      "name": "starlette/middleware/exceptions.py",
+      "size": 2784,
+      "perm": 436
+    },
+    {
+      "name": "starlette/middleware/gzip.py",
+      "size": 5899,
+      "perm": 436
+    },
+    {
+      "name": "starlette/middleware/httpsredirect.py",
+      "size": 848,
+      "perm": 436
+    },
+    {
+      "name": "starlette/middleware/sessions.py",
+      "size": 4778,
+      "perm": 436
+    },
+    {
+      "name": "starlette/middleware/trustedhost.py",
+      "size": 2219,
+      "perm": 436
+    },
+    {
+      "name": "starlette/middleware/wsgi.py",
+      "size": 5368,
+      "perm": 436
+    },
+    {
+      "name": "starlette/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "starlette/requests.py",
+      "size": 12253,
+      "perm": 436
+    },
+    {
+      "name": "starlette/responses.py",
+      "size": 21757,
+      "perm": 436
+    },
+    {
+      "name": "starlette/routing.py",
+      "size": 29494,
+      "perm": 436
+    },
+    {
+      "name": "starlette/schemas.py",
+      "size": 5168,
+      "perm": 436
+    },
+    {
+      "name": "starlette/staticfiles.py",
+      "size": 8627,
+      "perm": 436
+    },
+    {
+      "name": "starlette/status.py",
+      "size": 6359,
+      "perm": 436
+    },
+    {
+      "name": "starlette/templating.py",
+      "size": 5447,
+      "perm": 436
+    },
+    {
+      "name": "starlette/testclient.py",
+      "size": 27850,
+      "perm": 436
+    },
+    {
+      "name": "starlette/types.py",
+      "size": 1041,
+      "perm": 436
+    },
+    {
+      "name": "starlette/websockets.py",
+      "size": 8352,
+      "perm": 436
+    },
+    {
+      "name": "typing_extensions-4.15.0.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "typing_extensions-4.15.0.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "typing_extensions-4.15.0.dist-info/METADATA",
+      "size": 3259,
+      "perm": 436
+    },
+    {
+      "name": "typing_extensions-4.15.0.dist-info/RECORD",
+      "size": 580,
+      "perm": 436
+    },
+    {
+      "name": "typing_extensions-4.15.0.dist-info/WHEEL",
+      "size": 82,
+      "perm": 436
+    },
+    {
+      "name": "typing_extensions-4.15.0.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "typing_extensions-4.15.0.dist-info/licenses/LICENSE",
+      "size": 13936,
+      "perm": 436
+    },
+    {
+      "name": "typing_extensions.py",
+      "size": 160429,
+      "perm": 436
+    },
+    {
+      "name": "typing_inspection",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "typing_inspection-0.4.2.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "typing_inspection-0.4.2.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "typing_inspection-0.4.2.dist-info/METADATA",
+      "size": 2552,
+      "perm": 436
+    },
+    {
+      "name": "typing_inspection-0.4.2.dist-info/RECORD",
+      "size": 1076,
+      "perm": 436
+    },
+    {
+      "name": "typing_inspection-0.4.2.dist-info/WHEEL",
+      "size": 87,
+      "perm": 436
+    },
+    {
+      "name": "typing_inspection-0.4.2.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "typing_inspection-0.4.2.dist-info/licenses/LICENSE",
+      "size": 1090,
+      "perm": 436
+    },
+    {
+      "name": "typing_inspection/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "typing_inspection/introspection.py",
+      "size": 22534,
+      "perm": 436
+    },
+    {
+      "name": "typing_inspection/py.typed",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "typing_inspection/typing_objects.py",
+      "size": 17166,
+      "perm": 436
+    },
+    {
+      "name": "typing_inspection/typing_objects.pyi",
+      "size": 9401,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "uvicorn-0.46.0.dist-info",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "uvicorn-0.46.0.dist-info/INSTALLER",
+      "size": 4,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn-0.46.0.dist-info/METADATA",
+      "size": 6738,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn-0.46.0.dist-info/RECORD",
+      "size": 6477,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn-0.46.0.dist-info/REQUESTED",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn-0.46.0.dist-info/WHEEL",
+      "size": 87,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn-0.46.0.dist-info/entry_points.txt",
+      "size": 46,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn-0.46.0.dist-info/licenses",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "uvicorn-0.46.0.dist-info/licenses/LICENSE.md",
+      "size": 1526,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/__init__.py",
+      "size": 147,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/__main__.py",
+      "size": 62,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/_compat.py",
+      "size": 2916,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/_subprocess.py",
+      "size": 2776,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/_types.py",
+      "size": 7677,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/config.py",
+      "size": 22440,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/importer.py",
+      "size": 1128,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/lifespan",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "uvicorn/lifespan/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/lifespan/off.py",
+      "size": 332,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/lifespan/on.py",
+      "size": 5173,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/logging.py",
+      "size": 4235,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/loops",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "uvicorn/loops/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/loops/asyncio.py",
+      "size": 333,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/loops/auto.py",
+      "size": 566,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/loops/uvloop.py",
+      "size": 236,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/main.py",
+      "size": 18563,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/middleware",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "uvicorn/middleware/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/middleware/asgi2.py",
+      "size": 394,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/middleware/message_logger.py",
+      "size": 2859,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/middleware/proxy_headers.py",
+      "size": 6759,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/middleware/wsgi.py",
+      "size": 7125,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/protocols",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "uvicorn/protocols/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/protocols/http",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "uvicorn/protocols/http/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/protocols/http/auto.py",
+      "size": 403,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/protocols/http/flow_control.py",
+      "size": 1701,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/protocols/http/h11_impl.py",
+      "size": 21161,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/protocols/http/httptools_impl.py",
+      "size": 22286,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/protocols/utils.py",
+      "size": 2058,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/protocols/websockets",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "uvicorn/protocols/websockets/__init__.py",
+      "size": 0,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/protocols/websockets/auto.py",
+      "size": 590,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/protocols/websockets/websockets_impl.py",
+      "size": 14849,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/protocols/websockets/websockets_sansio_impl.py",
+      "size": 20198,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/protocols/websockets/wsproto_impl.py",
+      "size": 19538,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/py.typed",
+      "size": 1,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/server.py",
+      "size": 13368,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/supervisors",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "uvicorn/supervisors/__init__.py",
+      "size": 507,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/supervisors/basereload.py",
+      "size": 4018,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/supervisors/multiprocess.py",
+      "size": 7580,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/supervisors/statreload.py",
+      "size": 1548,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/supervisors/watchfilesreload.py",
+      "size": 2923,
+      "perm": 436
+    },
+    {
+      "name": "uvicorn/workers.py",
+      "size": 3873,
+      "perm": 436
+    },
+    {
+      "name": "yaml",
+      "size": 0,
+      "perm": 2147484157
+    },
+    {
+      "name": "yaml/__init__.py",
+      "size": 12311,
+      "perm": 436
+    },
+    {
+      "name": "yaml/_yaml.cpython-313-aarch64-linux-gnu.so",
+      "size": 2666184,
+      "perm": 509,
+      "compressed": true
+    },
+    {
+      "name": "yaml/composer.py",
+      "size": 4883,
+      "perm": 436
+    },
+    {
+      "name": "yaml/constructor.py",
+      "size": 28639,
+      "perm": 436
+    },
+    {
+      "name": "yaml/cyaml.py",
+      "size": 3851,
+      "perm": 436
+    },
+    {
+      "name": "yaml/dumper.py",
+      "size": 2837,
+      "perm": 436
+    },
+    {
+      "name": "yaml/emitter.py",
+      "size": 43006,
+      "perm": 436
+    },
+    {
+      "name": "yaml/error.py",
+      "size": 2533,
+      "perm": 436
+    },
+    {
+      "name": "yaml/events.py",
+      "size": 2445,
+      "perm": 436
+    },
+    {
+      "name": "yaml/loader.py",
+      "size": 2061,
+      "perm": 436
+    },
+    {
+      "name": "yaml/nodes.py",
+      "size": 1440,
+      "perm": 436
+    },
+    {
+      "name": "yaml/parser.py",
+      "size": 25495,
+      "perm": 436
+    },
+    {
+      "name": "yaml/reader.py",
+      "size": 6794,
+      "perm": 436
+    },
+    {
+      "name": "yaml/representer.py",
+      "size": 14190,
+      "perm": 436
+    },
+    {
+      "name": "yaml/resolver.py",
+      "size": 9004,
+      "perm": 436
+    },
+    {
+      "name": "yaml/scanner.py",
+      "size": 51279,
+      "perm": 436
+    },
+    {
+      "name": "yaml/serializer.py",
+      "size": 4165,
+      "perm": 436
+    },
+    {
+      "name": "yaml/tokens.py",
+      "size": 2573,
+      "perm": 436
+    }
+  ]
+}
