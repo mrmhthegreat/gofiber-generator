@@ -1,4 +1,4 @@
-module github.com/mrmhthegreat/go-fiber-generator/wrapper
+module github.com/mrmhthegreat/gofiber-generator/wrapper
 
 go 1.22.2
 
