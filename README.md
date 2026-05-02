@@ -11,7 +11,7 @@ This is a Go-based wrapper that embeds the Python generator and its dependencies
 You can install the generator directly without cloning the repository:
 
 ```bash
-go install github.com/mrmhthegreat/gofiber-generator@v0.2.8
+go install github.com/mrmhthegreat/gofiber-generator@v0.2.9
 ```
 
 ## 🚀 Build Instructions (Manual)
@@ -19,7 +19,7 @@ go install github.com/mrmhthegreat/gofiber-generator@v0.2.8
 1.  **Build the Go Binary**:
     The dependencies (Wheels) are already pre-bundled in `generate/data/`. You can build directly:
     ```bash
-    go build -o gofiber-gen
+    go build -o gofiber-generator
     ```
 
 > [!NOTE]
@@ -30,20 +30,20 @@ go install github.com/mrmhthegreat/gofiber-generator@v0.2.8
 Before running the generator for the first time, you **must** initialize the environment:
 
 ```bash
-./gofiber-gen init
+./gofiber-generator init
 ```
 This extracts the internal Python environment to `~/.gofiber_generator_env/`.
 
 ### CLI Mode
 ```bash
-./gofiber-gen gen --config ./master_config.yaml
+./gofiber-generator gen --config ./master_config.yaml
 ```
 
 ### Web GUI Mode (Syntax Genesis)
 ```bash
-./gofiber-gen serve
+./gofiber-generator serve
 ```
 
 ## 📦 Distribution
 
-To ship this tool to other users, simply send them the `gofiber-gen` binary. They do **not** need to have Go or Python installed to run it.
+To ship this tool to other users, simply send them the `gofiber-generator` binary. They do **not** need to have Go or Python installed to run it.
