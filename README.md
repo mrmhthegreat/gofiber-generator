@@ -5,11 +5,16 @@ This is a Go-based wrapper that embeds the Python generator and its dependencies
 ## 🛠 Prerequisites
 
 - Go 1.22+
-- Internet connection (only required for the initial `go generate` step)
 
-## 🚀 Build Instructions
+## 📦 Quick Installation
 
-Follow these steps to create your standalone binary:
+You can install the generator directly without cloning the repository:
+
+```bash
+go install github.com/mrmhthegreat/gofiber-generator@v0.2.6
+```
+
+## 🚀 Build Instructions (Manual)
 
 1.  **Download Dependencies (Wheels)**:
     This command uses `pip` internally to download the correct wheels for Linux, Windows, and macOS.
