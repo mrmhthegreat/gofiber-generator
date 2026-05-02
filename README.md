@@ -16,16 +16,14 @@ go install github.com/mrmhthegreat/gofiber-generator@v0.2.6
 
 ## 🚀 Build Instructions (Manual)
 
-1.  **Download Dependencies (Wheels)**:
-    This command uses `pip` internally to download the correct wheels for Linux, Windows, and macOS.
-    ```bash
-    go generate ./...
-    ```
-
-2.  **Build the Go Binary**:
+1.  **Build the Go Binary**:
+    The dependencies (Wheels) are already pre-bundled in `generate/data/`. You can build directly:
     ```bash
     go build -o gofiber-gen
     ```
+
+> [!NOTE]
+> If you want to **update** the Python environment or dependencies, run `go generate ./...` before building.
 
 ## 📖 Usage (End-User)
 
